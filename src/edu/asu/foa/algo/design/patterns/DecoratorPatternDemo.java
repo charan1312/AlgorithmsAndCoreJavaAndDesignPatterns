@@ -16,7 +16,13 @@ public class DecoratorPatternDemo {
 		Isaddle saddle1 = new Saddle(pony);      // CHANGE THE SADDLE INTERFACE TO EXTEND IPONY INSTEAD OF ISADDLE
 		saddle1.ride();
 
-		A.main1();
+		DecoratorPatternDemo d = new DecoratorPatternDemo();
+		d.main();
+		A.main();
+	}
+	
+	public static void main() {
+		System.out.println("Main with no arguments");
 	}
 	
 	public int localmem() {
@@ -27,7 +33,7 @@ public class DecoratorPatternDemo {
 
 
 class A{
-	public static void main1 (){
+	public static void main(){
 		
 		System.out.println("abc");
 	}

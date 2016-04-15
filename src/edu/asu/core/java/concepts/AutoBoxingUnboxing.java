@@ -36,7 +36,7 @@ public class AutoBoxingUnboxing {
 
         // Example 3: special case - arises due to autoboxing in Java
         Integer obj1 = 127; // autoboxing will call Integer.valueOf()
-        Integer obj2 = 127; // same call to Integer.valueOf() will return same
+        Integer obj2 = 129; // same call to Integer.valueOf() will return same
                             // cached Object  -- CACHING WILL HAPPEN BT -128 to 127
 
         System.out.println("obj1 == obj2 : " + (obj1 == obj2)); // true

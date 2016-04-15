@@ -5,6 +5,7 @@ public abstract class AbstractMethod {
 	public AbstractMethod() {
 		// TODO Auto-generated constructor stub
 		System.out.println("Par-Cons");
+		method1();
 	}
 	
 	public void method1() {

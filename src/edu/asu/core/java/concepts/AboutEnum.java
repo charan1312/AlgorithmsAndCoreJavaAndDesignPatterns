@@ -32,6 +32,7 @@ public class AboutEnum {
 		india.currencyDenom.add(CurrencyDenom.PAISE);
 		
 		System.out.println(india.country);
+		System.out.println(Country.INDIA);
 		
 	}
 }

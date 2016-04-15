@@ -8,7 +8,8 @@ public class JavaGenerics {
 
 	public static void main(String[] args) {
 		
-		Set setOfRawType = new HashSet<String>();
+		//Set setOfRawType = new HashSet<String>();
+		Set setOfRawType = new HashSet();
 		
 		setOfRawType.add("abcd");
 		setOfRawType.add(13212);

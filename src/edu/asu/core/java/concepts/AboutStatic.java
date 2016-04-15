@@ -6,7 +6,7 @@ public class AboutStatic {
 	
 	public static void main(String[] args) {
 		AboutStatic system = null;
-		System.out.println(system.category);
+		System.out.println(AboutStatic.category);
 	}
 
 }

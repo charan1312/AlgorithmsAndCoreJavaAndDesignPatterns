@@ -18,6 +18,9 @@ public class ArrayListTest {
 		String[] strar = str.toArray(new String[str.size()]);   //new String[str.size()];
 		//strar = (String[]) str.toArray();
 		
+		//String [] a = (String[]) str.toArray();     NOT WORKING
+		//System.out.println("LEN: "+ a.length); 
+		
 		for (String s  : strar) {
 			System.out.println(s);
 		}

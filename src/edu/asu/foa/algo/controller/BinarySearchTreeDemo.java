@@ -207,7 +207,6 @@ public class BinarySearchTreeDemo {
 	}
 
 	public void deleteInterface(Node r, int s) {
-
 		if(s < r.data) {
 			delete(r,null,1,s);
 		} else if(s >= r.data) {

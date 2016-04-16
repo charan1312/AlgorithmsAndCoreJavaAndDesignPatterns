@@ -45,7 +45,7 @@ public class Sorting {
 	public void bubbleSort() {
 		for(int j=0; j<arb1.length; j++) {
 			for(int i=0; i<(arb1.length - (j+1)) ;i++) {
-				//System.out.println(arb1[i] + " " + arb1[i+1]);
+				//System.out.println(arb1[i] + " " + arb1[i+1]); 9
 				if(arb1[i] > arb1[i+1]) {
 					int temp = arb1[i+1];
 					arb1[i+1] =arb1[i];

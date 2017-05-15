@@ -48,7 +48,7 @@ public class SquareRootOfNum {
 				return i;
 			else
 				i++;
-			//System.out.println(i);
+			System.out.println(i);
 		}
 		
 		return i-1;

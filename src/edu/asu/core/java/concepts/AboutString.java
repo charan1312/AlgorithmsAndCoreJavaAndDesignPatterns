@@ -7,15 +7,21 @@ public class AboutString {
 		String a =  new String("xyz");
 		String b =  new String("xyz");
 		
-		if(a == b)
+		//When we use NEW operator to create a String object, I think evrytime a new object is created and STRINGPOOL is NOT USED to
+		// see if a similar string exists in the STRINGPOOL( to assign a reference to the existing object)
+		
+		if(a == b)       // FALSE
 			System.out.println("a,b Equal");
 		else
-			System.out.println("a,b not equal");
+			System.out.println("a,b not equal");                      
 		
 		String c =  "xyz";
 		String d =  "xyz";
 		
-		if(c == d)
+		//WHEN we DONOT use NEW STRING() operator to create a string variable/object, STRINGPOOL reference is checked and used if
+		//similar object already exists.
+		
+		if(c == d)        // TRUE
 			System.out.println("c,d Equal - Stringpool");
 		else
 			System.out.println("c,d not equal");
